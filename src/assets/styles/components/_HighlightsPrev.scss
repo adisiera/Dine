@@ -5,6 +5,9 @@
     padding: 20px;
     border-bottom: 1px solid grey;
     justify-content: flex-start;
+    @media(max-width: 475px){
+        flex-direction: column;
+    }
     img{
         height: 100px;
         object-fit: contain;
