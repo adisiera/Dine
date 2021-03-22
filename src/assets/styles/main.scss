@@ -1,0 +1,22 @@
+//Setup
+@import "./setup/typography";
+@import "./setup/variables";
+@import "./setup/mixins";
+
+//Basics
+@import "./basics/base";
+@import "./basics/helpers";
+@import "./basics/buttons";
+
+//Components
+@import "./components/Hero";
+@import "./components/Book";
+@import "./components/Food";
+@import "./components/Place";
+@import "./components/Highlights";
+@import "./components/Footer";
+@import "./components/Reserve";
+@import "./components/HighlightsPrev";
+
+//Views
+@import "./views/Home";

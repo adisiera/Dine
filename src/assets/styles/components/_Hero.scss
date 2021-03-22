@@ -1,0 +1,22 @@
+.hero-cont {
+    background-image: url("../../img/hero-bg-desktop.jpg");
+    background-repeat: no-repeat;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: white;
+    height: 820px;
+    width: 100%;
+    .logo {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    h1 {
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 80px;
+        font-weight: 300;
+    }
+}
